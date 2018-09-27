@@ -4,7 +4,7 @@
 [Graph Convolutional Matrix Completion for Bipartite Edge Prediction](http://nyc.lti.cs.cmu.edu/yiming/Publications/wu-kdir18.pdf) - Yuexin Wu, Hanxiao Liu and Yiming Yang KDIR 2018. (Best Student Paper)
 
 ## Dependencies
-```Python == 2.7, lasagne, theano, numpy, scipy, joblib, scikit-learn, nose-parameterized```
+```Python == 2.7, lasagne == 0.1, theano == 0.8, numpy, scipy, joblib, scikit-learn, nose-parameterized```
 
 ### Use `Anaconda`
 If you have `Anaconda`, we can install the dependencies using the following command:

@@ -13,6 +13,7 @@ gxx_impl_linux-64=7.2.0=hdf63c60_3
 gxx_linux-64=7.2.0=h550dcbe_27
 intel-openmp=2019.0=118
 joblib=0.12.3=py27_0
+lasagne=0.1=py27_0
 libedit=3.1.20170329=h6b74fdf_2
 libffi=3.2.1=hd88cf55_4
 libgcc-ng=8.2.0=hdf63c60_1
@@ -26,6 +27,7 @@ mkl-service=1.1.2=py27h651fb7a_4
 mkl_fft=1.0.4=py27h4414c95_1
 mkl_random=1.0.1=py27h4414c95_1
 ncurses=6.1=hf484d3e_0
+nose-parameterized=0.6.0=py27h28b3542_0
 numpy=1.15.1=py27h1d66e8a_0
 numpy-base=1.15.1=py27h81de0dd_0
 openssl=1.0.2p=h14c3975_0
@@ -38,7 +40,7 @@ scipy=1.1.0=py27hfa4b5c9_1
 setuptools=40.2.0=py27_0
 six=1.11.0=py27_1
 sqlite=3.24.0=h84994c4_0
-theano=1.0.2=py27h6bb024c_0
+theano=0.8.2=py27_0
 tk=8.6.8=hbc83047_0
 wheel=0.31.1=py27_0
 zlib=1.2.11=ha838bed_2
