@@ -7,16 +7,16 @@
 ```Python == 2.7, lasagne == 0.1, theano == 0.8, numpy, scipy, joblib, scikit-learn, nose-parameterized```
 
 ### Use `Anaconda`
-If you have `Anaconda`, we can install the dependencies using the following command:
+If you have `Anaconda`, you can install the dependencies using the following command:
 ```conda create --name gcmc --file requirement.txt```
 
 ## How to Run
 
 ### Preprocess
-Unpress data using `7z x data.7z`.
+Uncompress data using `7z x data.7z`.
 
 ### Use GPU
-If you have installed `cuda` support, add `THEANO_FLAGS='device=cuda0,floatX=float32'` before execute the commnad. In experiments, multi-core cpus are more preferable (with `--n_jobs` option).
+If you have installed `cuda` support, add `THEANO_FLAGS='device=cuda0,floatX=float32'` before executing the commnad. In experiments, multi-core cpus are more preferable (with `--n_jobs` option).
 
 ### Simple Example
 ```
@@ -31,6 +31,7 @@ See `python src/run.py --help` for more option explanations.
 
 General `--iters 1000` should be enough for all datasets. In our experiment, the exact parameters can be found in `run_all.sh`.
 
+Execute the following command to run on all datasets.
 ```
 bash run_all.sh
 ```
