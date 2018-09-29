@@ -35,3 +35,20 @@ Execute the following command to run on all datasets.
 ```
 bash run_all.sh
 ```
+
+## Citation
+If you find the repository useful for your publication, please consider citing our paper:
+```
+@conference{wu2018graph,
+author={Yuexin Wu and Hanxiao Liu and Yiming Yang},
+title={Graph Convolutional Matrix Completion for Bipartite Edge Prediction},
+booktitle={Proceedings of the 10th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management - Volume 1: KDIR,},
+year={2018},
+pages={51-60},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0006900000510060},
+isbn={978-989-758-330-8},
+}
+```
+For any questions and comments, please send your email to [yuexinw@andrew.cmu.edu](mailto:yuexinw@andrew.cmu.edu).
