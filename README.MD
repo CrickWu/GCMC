@@ -3,6 +3,13 @@
 ## Paper
 [Graph Convolutional Matrix Completion for Bipartite Edge Prediction](http://nyc.lti.cs.cmu.edu/yiming/Publications/wu-kdir18.pdf) - Yuexin Wu, Hanxiao Liu and Yiming Yang KDIR 2018. (Best Student Paper)
 
+The framework tries to solve the biparite edge prediction (BEP) problem via decomposing the middle edges as initial node vectors which are later passed through graph convolution neural networks for better hidden representations to the final prediction.
+
+<p style="text-align:center;"><img src="https://github.com/CrickWu/GCMC/blob/master/figs/prob.png" alt="link" style="max-width:70%;"></p>
+
+
+<p style="text-align:center;"><img src="https://github.com/CrickWu/GCMC/blob/master/figs/framework.png" alt="framework" style="max-width:100%;"></p>
+
 ## Dependencies
 ```Python == 2.7, lasagne == 0.1, theano == 0.8, numpy, scipy, joblib, scikit-learn, nose-parameterized```
 
