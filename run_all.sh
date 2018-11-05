@@ -16,5 +16,5 @@ python src/run.py --dataset e --layers 400 300 5 --iters 2000 --pos_up_ratio 10.
 python src/run.py --dataset cora --layers 400 300 5 --iters 6000 --pos_up_ratio 10. --fold 5 --save_log --save_model --binary_graph
 python src/run.py --dataset citeseer --layers 4000 300 5 --iters 6000 --pos_up_ratio 10. --fold 5 --save_log --save_model --binary_graph
 
-python test.release.py --dataset ml-100k --layers 800 300 5 --iters 4000 --fold 5 --save_log --save_model
+python src/run.py --dataset ml-100k --layers 800 300 5 --iters 4000 --fold 5 --save_log --save_model
 
